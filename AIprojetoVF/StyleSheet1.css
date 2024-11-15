@@ -1,0 +1,385 @@
+﻿body {
+    background-image: url(salacinema.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 98%;
+    margin: 0;
+}
+
+img.foto1 {
+    height: 5%;
+    width: 5%;
+    margin-left: 3%;
+    margin-top: 0;
+    float: left;
+    padding: 0;
+    border-width: 0;
+}
+
+.cabeçalho {
+    background-color: white;
+    width: 90%;
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:4px 7px 4px 4px;
+
+}
+
+.nav {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: #ff0000 0 0 10px;
+}
+
+.descricaosumaria {
+    background-color:black;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 23px;
+    padding-bottom: 4px;
+    box-shadow: #ff0000 0 0 10px;
+}
+
+h1.destaquefilme {
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    
+    font-family: "Verdana";
+}
+
+.div_h1{
+    box-shadow: #ff0000 0 0 10px;
+    background-color: black;
+}
+
+
+
+h1.avatar {
+    text-align: left;
+    font-size: 24px;
+    color: rgb(1, 186, 233);
+    font-family: "Verdana";
+}.div_h1_Avatar{
+    box-shadow: rgb(1, 186, 233) 0 0 10px;
+    background-color: black;
+}
+a.DS{
+    color: whitesmoke;
+}
+h1.gato {
+    text-align: left;
+    font-size: 24px;
+    color: rgb(174, 97, 55);
+    font-family: "Verdana";
+}
+.div_h1_gato{
+    box-shadow: rgb(174, 97, 55) 0 0 10px;
+    background-color: black;
+}
+h1.operacao {
+    text-align: left;
+    font-size: 24px;
+    color: rgb(223, 164, 48);
+    font-family: "Verdana";
+}
+.div_h1_operacao{
+    box-shadow: rgb(223, 164, 48) 0 0 10px;
+    background-color: black;
+}
+
+h1.babylon {
+    text-align: left;
+    font-size: 24px;
+    color: rgb(246, 224, 112);
+    font-family: "Verdana";
+}
+.div_h1_babylon{
+    box-shadow: rgb(246, 224, 112) 0 0 10px;
+    background-color: black;
+}
+
+h1.m3gan {
+    text-align: left;
+    font-size: 24px;
+    color: rgb(254, 127, 255);
+    font-family: "Verdana";
+}
+.div_h1_m3gan{
+    box-shadow: rgb(254, 127, 255) 0 0 10px;
+    background-color: black;
+}
+
+
+/*relogio*/
+.clock {
+    font-size: 10px;
+    width: 10%;
+    bottom: 0;
+    margin-top: 1%;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    float: right;
+    color: #000000;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 10px; 
+    width: 12%; 
+    height: auto; 
+    padding: 5px 30px 5px 30px; 
+    box-shadow: #FF0000 0 0 10px;
+}
+/*relogio*/
+
+a.classe1 {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.classe1:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.classe2 {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+    a.classe2:link {
+        color: #ff0000;
+        text-decoration: none;
+    }
+
+div.divone {
+    width: 50%;
+    padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 0;
+}
+
+h1.destaquefilmes {
+    text-align: left;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Verdana";
+}
+
+/*slider*/
+.slider {
+    text-align: center;
+    height: 535px;
+    
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-bottom: 0;
+    border-radius: 20px;
+    box-shadow: #FF0000 0 0 10px;
+}
+
+img.imgslide{
+    width:100%;
+    height:535px;
+}
+
+.slider:hover {
+    transform: scale(1.05);
+}
+
+.slide {
+    width: 100%;
+    position: absolute;
+    transition: transform 1s;
+}
+
+.slider .seta {
+    width: 5%;
+    top:45%;
+    opacity: 0.5;
+    background-color: transparent;
+    position: absolute;
+    transition: 0.5s;
+   
+}
+
+.seta:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.slider .s_dir {
+    bottom: 50%;
+    right: 0;
+}
+
+.slider .s_esq{
+    bottom: 50%;
+    left: 0;
+}
+/*Slider*/
+
+footer {
+    background-color:rgb(49, 49, 49);
+    height: 155px;
+    width: 100%;
+    padding-right: 23px;
+    padding-top: 4px;
+    padding-left: 15px;
+
+}
+
+.rodape{
+    text-align:center;
+    font-size: 17px;
+    color: whitesmoke;
+}
+
+
+/*Contactos*/
+.form--contacto {
+    background-image: url(phone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    border-radius: 9px;
+    box-shadow: #FF0000 0 0 10px;
+    left: 50%;
+    top: 50%;
+}
+
+.form textarea {
+    height: 100px;
+}
+
+.form label {
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ff0000;
+    font-family: Arial, sans-serif;
+}
+
+.form button {
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 12%;
+    height: auto;
+    padding: 5px 30px 5px 30px;
+    box-shadow: #a5ffff 0 0 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*Noticias*/
+
+img.noticias {
+    width: 20%;
+    height: 20%;
+    float: left;
+}
+
+div.divnot {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #ffffff;
+    margin-top: 2%;
+    padding-bottom: 14px;
+}
+
+div.texto {
+    clear: left;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+h2.noticias {
+    color: #ff0000;
+    font-family: 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+ul.oscares {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+
+/*Sessoes*/
+img.sessoes {
+    width: 10%;
+    height: 10%;
+    float: left;
+}
+
+div.filmes {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #ffffff;
+    margin-top: 2%;
+    padding-bottom: 14px;
+}
+
+ul.lista {
+    list-style-type: square;
+    margin-left: 10%;
+    list-style-position: inside;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+ul.horario {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-family: Garamond, serif;
+    font-size: 20px;
+}
+
+div.sinopse{
+    clear:left;
+}
+
+h1.h1sinopse {
+    font-family: 'Times New Roman', serif;
+    font-size: 40px;
+    color: #ff0000;
+    margin-left: 2%;
+}
+
+a.asinopse {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 2%;
+}
+
+p.rp1{
+text-align: center;
+font-size:small;
+color: whitesmoke;
+}
+
+a.rp1{
+    color: whitesmoke;
+}

@@ -1,0 +1,3 @@
+https://www.w3schools.com/default.asp
+https://www.devmedia.com.br/date-javascript-trabalhando-com-data-e-hora-em-js/37222
+https://reactjs.org/

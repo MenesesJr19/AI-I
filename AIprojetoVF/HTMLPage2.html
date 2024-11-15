@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <title>Trabalho prático</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css">
+    <script defer src="changecolor.js"></script>
+    <script defer src="clock.js"></script>
+    <script defer src="Script1.js"></script>
+    <script defer src="contatos.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="clock">
+            <h2 id="clock"> </h2>
+        </div>
+        <div class="cabeçalho">
+            <a id="Topo" href="#topo"></a>
+            <img src="imagens/logo2.jpg" alt="Não foi possível carregar a imagem" class="foto1" />
+            <div class="nav">
+                <a href="../AIprojetoVF/HTMLPage2.html" class="classe2" onmouseover="changecolor2(this)" onmouseout="changecolor2(this)">Home &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a class="classe1">&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="../AIprojetoVF/Sessoes.html" class="classe1" onmouseover="changecolor(this)" onmouseout="changecolor(this)">Sessões &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a class="classe1">&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="../AIprojetoVF/Noticias.html" class="classe1" onmouseover="changecolor(this)" onmouseout="changecolor(this)">Notícias</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="divone">
+            <h1 class="destaquefilmes">Filmes em Destaque</h1>
+            <div class="slider">
+                <div class="slide">
+                    <a href="https://www.youtube.com/watch?v=PihEIvT7Sew" target="_blank">
+                        <img class="imgslide" src="imagens/avatar.jpg" alt="Não foi possível carregar a imagem" />
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://www.youtube.com/watch?v=T1bd9qATBoQ" target="_blank">
+                        <img class="imgslide" src="imagens/gato.png" alt="Não foi possível carregar a imagem" />
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://www.youtube.com/watch?v=IXVkbhbpmxk&t=25s" target="_blank">
+                        <img class="imgslide" src="imagens/esquema.png" alt="Não foi possível carregar a imagem" />
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://www.youtube.com/watch?v=Guwtgeih-4w" target="_blank">
+                        <img class="imgslide" src="imagens/babilonia.jpg" alt="Não foi possível carregar a imagem" />
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="https://www.youtube.com/watch?v=F_BZre3NPMM" target="_blank">
+                        <img class="imgslide" src="imagens/M3GAN.jpg" alt="Não foi possível carregar a imagem" />
+                    </a>
+                </div>
+                <img src="imagens/arrowright.png" class="s_esq seta" />
+                <img src="imagens/arrowleft.png" class="s_dir seta" />
+
+                
+                
+            </div>
+        </div>
+<br>
+<br>
+        <div class="descricaosumaria">
+            <h1 class="destaquefilme">Descrição Sumária</h1>
+            <div class="div_h1_Avatar">
+            <h1 class="avatar">Avatar: O caminho da água</h1>
+                <a class="DS">
+                    Após formar uma família, Jake Sully e Ney'tiri fazem de tudo para ficarem juntos.
+                    No entanto, eles devem sair de casa e explorar as regiões de Pandora quando uma antiga ameaça ressurge, e Jake deve travar uma guerra difícil contra os humanos.
+                </a>
+           </div>
+          
+           <div class="div_h1_gato">
+            <h1 class="gato">O Gato das Botas: O Último Desejo</h1>
+                <a class="DS">
+                    O Gato de Botas descobre que sua paixão pela aventura cobrou seu preço: ele já gastou oito de suas nove vidas.
+                    Ele então parte em uma jornada épica para encontrar o mítico Último Desejo e restaurar suas nove vidas.
+                </a>
+            </div>
+
+            <div class="div_h1_operacao">
+            <h1 class="operacao">Operation Fortune: Ruse de Guerre</h1>
+                <a class="DS">
+                    O agente especial Orson Fortune e a sua equipa de agentes, recrutam uma das maiores estrelas de cinema de Hollywood para ajudá-los em uma das suas missões secretas.<br>
+                    Quando a venda de uma nova tecnologia,uma nova forma de inteligência artificial de armas que ameaça perturbar a ordem e a economia mundial.
+                </a>
+            </div>
+
+            <div class="div_h1_babylon">
+            <h1 class=" babylon">Babylon</h1>
+                <a class="DS">
+                    Um conto de ambições exageradas e também excessos escandalos,traçam a ascensão e queda de muitos "personagens" durante uma era de uma grande decadência e corrupção no início de Hollywood.
+                </a>
+            </div>
+
+            <div class="div_h1_m3gan"> 
+            <h1 class=" m3gan">M3gan</h1>
+                <a class="DS">
+                    A brilhante engenheira robótica de uma empresa de brinquedos utiliza inteligência artificial para desenvolver M3GAN, uma boneca que começa a ganhar vida própria e a partir daí não para.
+                </a>
+            </div>
+
+        </div>
+    </main>
+    <br>
+    <br>
+        <footer>
+        
+            <div class="rodape">
+                <a class="rd"> Caso nos deseja contactar por algum motivo pode o fazer clicando no botão embaixo </a>
+                <div  class="form" id="form"></div>
+            </div>
+            <p style="text-align: right ;">
+                <a href="https://www.facebook.com"><IMG SRC="imagens/facebook.png" height="28" width="28"></a>
+                <a href="https://www.instagram.com"><IMG SRC="imagens/instagram.png" height="30" width="30"></a>
+                <a href="https://twitter.com"> <IMG SRC="imagens/twitter.png" height="30" width="39"></a>
+            </p>
+            <p class="rp1">
+                <a class="rp1" id="Topo" href="#Topo"><IMG SRC="imagens/click.png"height="30" width="30">Clique aqui</a>
+            </p>    
+        </footer>
+        
+</body>
+</html>
